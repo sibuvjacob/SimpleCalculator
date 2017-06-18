@@ -5,11 +5,11 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.example.android.simplecalculator"
+        applicationId "com.apprightstudio.android.simplecalculator"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
     }
     buildTypes {
         release {

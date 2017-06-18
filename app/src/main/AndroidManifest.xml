@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.simplecalculator">
+    package="com.apprightstudio.android.simplecalculator">
 <supports-screens
-
-    android:normalScreens="true"
-    android:largeScreens="false"
+android:requiresSmallestWidthDp="320"
+    android:largestWidthLimitDp="400"
+android:normalScreens="true"
     android:smallScreens="false"
+    android:largeScreens="false"
     android:xlargeScreens="false"
 
+
     />
+    <compatible-screens
+        />
+
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
-        <activity android:name=".MainActivity"
+        <activity android:name="com.apprightstudio.android.simplecalculator.MainActivity"
             android:screenOrientation="portrait"
             >
 

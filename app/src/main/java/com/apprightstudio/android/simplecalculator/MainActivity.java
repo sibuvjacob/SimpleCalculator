@@ -1,4 +1,4 @@
-package com.example.android.simplecalculator;
+package com.apprightstudio.android.simplecalculator;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -33,9 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         AlertDialog alert1 = new AlertDialog.Builder(MainActivity.this).setTitle("Important Message")
-                .setMessage("This is just a fun project. We(Developers)(me :P) do not assume liability of " +
-                        "any kind. By signing this agreement," +
-                        " I(User) agrees to hold the developers entirely free from any liability")
+                .setMessage("I understand this app is currently in beta and as such that there will be bugs")
                 .setNegativeButton("Disagree", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int answer) {
                         finish();
